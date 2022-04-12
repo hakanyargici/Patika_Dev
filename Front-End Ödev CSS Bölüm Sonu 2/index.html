@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Google by Yudu</title>
+        <link rel="stylesheet" text="" href="style.css">
+        <style>
+            /* Margin Padding Sıfırlama */
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            /* header başı */
+            header{
+                height: 40px;
+                display: flex;
+                justify-content: right;
+            }
+
+            ul{
+                display: flex;
+                margin: 10px;
+                padding: 5px;
+                text-decoration: none;
+            }
+
+            li{
+                list-style-type: none;
+                margin: 8px;
+                text-decoration: none;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: aliceblue;
+            }
+
+            li:active{
+                color: white;
+            }
+
+            li:link{
+                color: white;
+            }
+
+            li:hover{
+                color: white;
+            }
+
+            li:visited{
+                color: white;
+            }
+            /* header sonu */
+            /* article başı */
+            /* banner başı */
+            .banner{
+                display: flex;
+                justify-content: center;
+                margin-top: 160px;
+            }
+            /* banner sonu */
+            /* search-bar başı */
+            .searchbar{
+                display: flex;
+                justify-content: center;
+                margin-top: 25px;
+            }
+            .borderline{
+                width: 582px;
+                height: 43px;
+                border-radius: 20px;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+            }
+            
+            input[type=text] {
+                border-style: none; 
+                background-color: #202124;
+                height: 15px;
+                width: 430px;
+                margin-right: 45px;
+            }
+            /* search-bar sonu */
+            /* search-button başı */
+            .buttonarea{
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+            }
+            .submitbutton{
+                border-style: solid;
+                border-radius: 6px;
+                color: #303134;
+                background-color: #303134;
+                width: 100px;
+                height: 30px;
+                margin-top: 15px;
+                margin-right: 10px;
+                text-align: center;
+            }
+            .submittext{
+                margin-top: 7px;
+                color: aliceblue;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            /* search-button sonu */
+            /* footer-başı */
+            #footerb{
+                margin-top: 220px;
+                max-height: 96px;
+            }
+
+            .footerb1{
+                background-color: black;
+                height: 40px;
+                padding-bottom: 15px;
+            }
+
+            .footerb2{
+                padding: 15px 30px;
+            }
+
+            .footerb3{
+                background-color: black;
+                height: 48px;
+            }
+
+            .footerb4{
+                height: 48px;
+                display: flex;
+                justify-content: space-between;
+                margin: 0;
+                padding: 0;
+                align-items: center;
+            }
+
+            .lic{
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .karbon{
+                display: flex;
+                float: left;
+            }
+            /* footer- sonu */
+            /* article sonu */
+        </style>
+    </head>
+    <body style="background-color: #202124;">
+        <!--Header Başı-->
+        <header>
+            <div class="header_menu">
+                <ul>
+                    <li><a href="https://mail.google.com/">Gmail</a></li>
+                    <li><a href="https://www.google.com.tr/imghp?hl=tr&ogbl">Görseller</a></li>
+                    <li><img src="content/outline_apps_white_24dp.png" alt="app_icons" style="width: 23px;height: 23px;"></li>
+                    <li><img src="content/axi.png" alt="my_photo" style="width: 27px;height: 27px; border-radius: 15px;"></li>
+                </ul>
+            </div>
+        </header>
+        <!--Header Sonu-->
+        <section>
+            <article>
+                <div class="banner">
+                    <figure>
+                        <img src="content/google.png" alt="google">
+                    </figure>
+                </div>
+                <div class="searchbar">
+                    <border class="borderline" style="border-style: solid; border-width: 1px; border-color: grey;"> 
+                        <figure>
+                            <img src="content/outline_search_white_18dp.png" alt="search-bar" style="color: grey; ;">
+                        </figure>
+                        <form class="">
+                            <input type="text">
+                        </form>
+                    <span style="display: flex; justify-content: center; padding: 10px;">
+                        <figure>
+                            <img src="content/outline_keyboard_white_24dp.png" alt="keyboard" style="color: grey;">
+                        </figure>
+                        <figure>
+                            <img src="content/outline_mic_white_24dp.png" alt="mic" style="color: grey;">
+                        </figure>
+                    </span>
+                    </border>
+                </div>
+                <div class="buttonarea">
+                    <border class="submitbutton" style="width: 122px;">
+                        <p class="submittext">Google'da Ara</p>
+                    </border>
+                    <border class="submitbutton"  style="width: 215px;">
+                        <p class="submittext">Kendimi Şanslı Hissediyorum</p>
+                    </border>
+                </div>
+                <div style="display: flex; justify-content: center; margin-top: 15px;">
+                    <p style="font-size: 13px; font-family: Arial, Helvetica, sans-serif; color: #bdc1c6; text-decoration: none;">Google'ı kullanabilceğiniz diğer diller: <a href="https://www.google.com.en/">English</a> </p>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <div id="footerb">
+                <div class="footerb1">
+                    <div class="footerb2">
+                        <p style="color: #9aa0a6; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Turkey</p>
+                    </div>
+                </div>
+                <div class="footerb3">
+                    <div class="footerb4">
+                        <ul style="color: #9aa0a6;">
+                            <li class="lic">Hakkında</li>
+                            <li class="lic">Reklam</li>
+                            <li class="lic">İşletme</li>
+                            <li class="lic">Arama Nasıl Çalışır ?</li>
+                        </ul>
+                        <div class="karbon" style="width: 200px; align-items: center;">
+                            <img src="content/yaprak.png" alt="yaprak" width="9px" height="9px"> <p style="color: #9aa0a6; font-family: Arial, Helvetica, sans-serif; font-size: 14px; display: flex; text-align: center;">2007'den bu yana karbon nötr</p>
+                        </div>
+                        
+                        <ul style="color: #9aa0a6;">
+                            <li class="lic">Gizlilik</lic>
+                            <li class="lic">Şartlar</lic>
+                            <li class="lic">Ayarlar</lic>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
