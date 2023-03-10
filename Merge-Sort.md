@@ -1,6 +1,6 @@
-#[16,21,11,8,12,22]  Merge Sort türüne göre aşamalarını ve Big-O gösterimini yazınız.#
+# [16,21,11,8,12,22]  Merge Sort türüne göre aşamalarını ve Big-O gösterimini yazınız.
 
-*Merge Sort türüne göre aşamaları;*
+* Merge Sort türüne göre aşamaları;*
 
 1. Adım: Eleman listesi 16,21,11 ve 8,12,22 olarak 2 parçaya bölünür.
 2. Adım: 2 parçaya bölünen eleman listesi 16,21 | 11 ve 8,12 | 22 olarak kendi içlerinde 2 parçaya daha ayrılır.
@@ -15,6 +15,6 @@
          Bu durumda sayı dizisi "8,11,12,16,21,22" olur.
 
 
-*Big-O türün için;*
+* Big-O türün için;*
 
 O(log n) olarak ifade edilir.
