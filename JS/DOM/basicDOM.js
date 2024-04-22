@@ -57,3 +57,19 @@ ekle.addEventListener("click",function(){
     // Veri inputu içerisindeki metni siliyoruz.
     veri.value = "";
 });
+
+/* ##### ##### ###### ##### ##### ##### ##### ##### ##### ##### ##### #####*/
+/* ##### ##### DOM'a CSS Class Bilgisi Eklemek veya Çıkarmak ##### ##### */
+
+let greeting = document.querySelector("#greeting")
+
+greeting.classList.add("text-primary")
+greeting.classList.add("title")
+greeting.classList.add("new-info, second-class")
+
+// greeting.classList.remove("text-primary");
+
+console.log(greeting.classList);
+
+let alert = document.getElementById('#alert');
+alert("Dri");
