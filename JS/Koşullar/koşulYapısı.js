@@ -28,3 +28,32 @@ if (tahmin === randomSayi){
 } else {
     alert("Bir daha dene :(, Random sayı: " + randomSayi);
 }
+
+
+/* ##### Hacker Rank - Challenge ##### */
+
+function isWeird(input) {
+    const n = parseInt(input.trim(), 10); 
+    if(n % 2 !== 0) {
+        console.log("Weird");
+    } else {
+        if(2 <= n && n <= 5) {
+            console.log("Not Weird");
+        } else if (6 <= n && n <= 20) {
+            console.log("Weird");
+        } else if (n > 20)
+            console.log("Not Weird");
+    }
+}
+
+// Standart girdiyi oku
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+let inputString = '';
+process.stdin.on('data', function(inputStdin) {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', function() {
+    isWeird(inputString);
+});
