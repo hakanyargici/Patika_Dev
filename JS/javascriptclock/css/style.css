@@ -1,37 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
   background: black;
+  font-family: Lato, sans-serif;
+}
+
+.kodluyoruzImage {
+  margin-top: 250px;
+  width: 320px;
+}
+
+.userName {
+  color: #f4f4f4;
 }
 
 .clock {
   position: relative;
   text-align: center;
-  color: #e98208;
-  font-size: 60px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  letter-spacing: 7px;
+  color: #f4f4f4;
+  font-size: 3rem;
 }
 
 .text1 {
   position: relative;
   text-align: center;
   color: #e98208;
-  font-size: 50px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  letter-spacing: 7px;
+  font-size: 2.5rem;
+  letter-spacing: 0px;
 }
 
 .text2 {
   position: relative;
   text-align: center;
   color: #e98208;
-  font-size: 40px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  letter-spacing: 7px;
+  font-size: 2.5rem;
   margin-right: 100px;
   margin-left: 100px;
-}
-
- img {
-     margin-top: 120px;
-     width: 17%;
 }
